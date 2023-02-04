@@ -1,0 +1,581 @@
+
+
+============================== 2023-02-04 18:38:17.351345 | ff65249e-c49b-40b5-b4b0-d491bce69c23 ==============================
+[0m18:38:17.351345 [info ] [MainThread]: Running with dbt=1.4.1
+[0m18:38:17.354338 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\logonrmlocal\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['staging.raw_qventus'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m18:38:17.355338 [debug] [MainThread]: Tracking: tracking
+[0m18:38:17.356339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017015E64100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017015E64CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017015E64BB0>]}
+[0m18:38:17.383345 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:38:17.386343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'ff65249e-c49b-40b5-b4b0-d491bce69c23', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017015E565E0>]}
+[0m18:38:17.432338 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017015E79790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017015E795B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017015E79850>]}
+[0m18:38:17.433338 [debug] [MainThread]: Flushing usage events
+[0m18:38:18.252658 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Error reading dbt_qventus: staging\qventus\_src_qventus.yml - Runtime Error
+    Syntax error near line 10
+    ------------------------------
+    7  |     schema: qventus
+    8  |     description: Exemplo de projeto ETL
+    9  | 
+    10 |   tables:
+    11 |     - name: patient_data
+    12 |     - name: procedure_orders
+    
+    Raw Error:
+    ------------------------------
+    while parsing a block collection
+      in "<unicode string>", line 5, column 3
+    did not find expected '-' indicator
+      in "<unicode string>", line 10, column 3
+
+
+============================== 2023-02-04 18:45:47.157683 | 49a0bcdf-74f2-4313-ad33-6aa45215058e ==============================
+[0m18:45:47.157683 [info ] [MainThread]: Running with dbt=1.4.1
+[0m18:45:47.160687 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\logonrmlocal\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['staging.raw_qventus'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m18:45:47.161683 [debug] [MainThread]: Tracking: tracking
+[0m18:45:47.162679 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020161794100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020161794CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020161794BB0>]}
+[0m18:45:47.215396 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:45:47.224948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '49a0bcdf-74f2-4313-ad33-6aa45215058e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201617A6070>]}
+[0m18:45:47.264949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201617A6070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201617A6250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201617A61F0>]}
+[0m18:45:47.266953 [debug] [MainThread]: Flushing usage events
+[0m18:45:48.209011 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Error reading dbt_qventus: staging\qventus\_src_qventus.yml - Runtime Error
+    Syntax error near line 10
+    ------------------------------
+    7  |     schema: qventus
+    8  |     description: Exemplo de projeto ETL
+    9  | 
+    10 |   tables:
+    11 |     - name: patient_data
+    12 |     - name: procedure_orders
+    
+    Raw Error:
+    ------------------------------
+    while parsing a block collection
+      in "<unicode string>", line 5, column 3
+    did not find expected '-' indicator
+      in "<unicode string>", line 10, column 3
+
+
+============================== 2023-02-04 18:49:59.495668 | 30dedb4a-8cc4-43e6-803d-cf6bb6e2a8cf ==============================
+[0m18:49:59.495668 [info ] [MainThread]: Running with dbt=1.4.1
+[0m18:49:59.498670 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\logonrmlocal\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['staging.raw_qventus'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m18:49:59.499668 [debug] [MainThread]: Tracking: tracking
+[0m18:49:59.500670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3624100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3624CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3624BB0>]}
+[0m18:49:59.522671 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:49:59.527669 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '30dedb4a-8cc4-43e6-803d-cf6bb6e2a8cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3637070>]}
+[0m18:50:00.870884 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m18:50:00.892872 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m18:50:00.899877 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_qventus__patient_data.sql
+[0m18:50:00.905891 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_qventus__procedure_orders.sql
+[0m18:50:01.083877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '30dedb4a-8cc4-43e6-803d-cf6bb6e2a8cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A35E4280>]}
+[0m18:50:01.096871 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '30dedb4a-8cc4-43e6-803d-cf6bb6e2a8cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A36246D0>]}
+[0m18:50:01.097872 [info ] [MainThread]: Found 4 models, 4 tests, 0 snapshots, 0 analyses, 304 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m18:50:01.099872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '30dedb4a-8cc4-43e6-803d-cf6bb6e2a8cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A0CFDC70>]}
+[0m18:50:01.100874 [warn ] [MainThread]: The selection criterion 'staging.raw_qventus' does not match any nodes
+[0m18:50:01.102875 [info ] [MainThread]: 
+[0m18:50:01.105879 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m18:50:01.110874 [debug] [MainThread]: Command end result
+[0m18:50:01.122873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3624160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A35E4490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A35E4520>]}
+[0m18:50:01.123874 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-02-04 18:50:40.715472 | 44f1395e-d23d-4b9c-91c9-a52ae55d82b2 ==============================
+[0m18:50:40.715472 [info ] [MainThread]: Running with dbt=1.4.1
+[0m18:50:40.718461 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\logonrmlocal\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['staging.stg_qventus__patient_data'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m18:50:40.719459 [debug] [MainThread]: Tracking: tracking
+[0m18:50:40.720460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025CE4CC8160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025CE4CC8D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025CE4CC8C10>]}
+[0m18:50:40.892459 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m18:50:40.893460 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m18:50:40.904459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '44f1395e-d23d-4b9c-91c9-a52ae55d82b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025CE4E2A0D0>]}
+[0m18:50:40.917463 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '44f1395e-d23d-4b9c-91c9-a52ae55d82b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025CE4D86BB0>]}
+[0m18:50:40.918462 [info ] [MainThread]: Found 4 models, 4 tests, 0 snapshots, 0 analyses, 304 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m18:50:40.919460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '44f1395e-d23d-4b9c-91c9-a52ae55d82b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025CE4D86E50>]}
+[0m18:50:40.921461 [info ] [MainThread]: 
+[0m18:50:40.925462 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:50:40.930463 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ANALYTICS_QVENTUS'
+[0m18:50:40.979464 [debug] [ThreadPool]: Using snowflake connection "list_ANALYTICS_QVENTUS"
+[0m18:50:40.980466 [debug] [ThreadPool]: On list_ANALYTICS_QVENTUS: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "connection_name": "list_ANALYTICS_QVENTUS"} */
+show terse schemas in database ANALYTICS_QVENTUS
+    limit 10000
+[0m18:50:40.995459 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:50:43.251567 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 2 seconds
+[0m18:50:43.256563 [debug] [ThreadPool]: On list_ANALYTICS_QVENTUS: Close
+[0m18:50:43.576445 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ANALYTICS_QVENTUS_PUBLIC'
+[0m18:50:43.592096 [debug] [ThreadPool]: Using snowflake connection "list_ANALYTICS_QVENTUS_PUBLIC"
+[0m18:50:43.593097 [debug] [ThreadPool]: On list_ANALYTICS_QVENTUS_PUBLIC: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "connection_name": "list_ANALYTICS_QVENTUS_PUBLIC"} */
+show terse objects in ANALYTICS_QVENTUS.PUBLIC
+[0m18:50:43.594097 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:50:45.220063 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2 seconds
+[0m18:50:45.223064 [debug] [ThreadPool]: On list_ANALYTICS_QVENTUS_PUBLIC: Close
+[0m18:50:45.524955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '44f1395e-d23d-4b9c-91c9-a52ae55d82b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025CE4D86850>]}
+[0m18:50:45.526956 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m18:50:45.528643 [info ] [MainThread]: 
+[0m18:50:45.566642 [debug] [Thread-1  ]: Began running node model.dbt_qventus.stg_qventus__patient_data
+[0m18:50:45.567645 [info ] [Thread-1  ]: 1 of 1 START sql view model PUBLIC.stg_qventus__patient_data ................... [RUN]
+[0m18:50:45.571645 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.dbt_qventus.stg_qventus__patient_data'
+[0m18:50:45.573658 [debug] [Thread-1  ]: Began compiling node model.dbt_qventus.stg_qventus__patient_data
+[0m18:50:45.579650 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_qventus.stg_qventus__patient_data"
+[0m18:50:45.585644 [debug] [Thread-1  ]: Timing info for model.dbt_qventus.stg_qventus__patient_data (compile): 2023-02-04 18:50:45.574659 => 2023-02-04 18:50:45.584650
+[0m18:50:45.586644 [debug] [Thread-1  ]: Began executing node model.dbt_qventus.stg_qventus__patient_data
+[0m18:50:45.707656 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_qventus.stg_qventus__patient_data"
+[0m18:50:45.712659 [debug] [Thread-1  ]: Using snowflake connection "model.dbt_qventus.stg_qventus__patient_data"
+[0m18:50:45.713645 [debug] [Thread-1  ]: On model.dbt_qventus.stg_qventus__patient_data: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "node_id": "model.dbt_qventus.stg_qventus__patient_data"} */
+create or replace   view ANALYTICS_QVENTUS.PUBLIC.stg_qventus__patient_data
+  
+   as (
+    select 
+    * 
+from
+    ANALYTICS_QVENTUS.qventus.patient_data
+  );
+[0m18:50:45.715646 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m18:50:47.274924 [debug] [Thread-1  ]: Snowflake adapter: Snowflake query id: 01aa1c6a-0c04-278e-0000-0002f2fe21cd
+[0m18:50:47.275926 [debug] [Thread-1  ]: Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'ANALYTICS_QVENTUS.QVENTUS' does not exist or not authorized.
+[0m18:50:47.277922 [debug] [Thread-1  ]: Timing info for model.dbt_qventus.stg_qventus__patient_data (execute): 2023-02-04 18:50:45.587646 => 2023-02-04 18:50:47.277922
+[0m18:50:47.278923 [debug] [Thread-1  ]: On model.dbt_qventus.stg_qventus__patient_data: Close
+[0m18:50:47.623378 [debug] [Thread-1  ]: Database Error in model stg_qventus__patient_data (models\staging\stg_qventus__patient_data.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ANALYTICS_QVENTUS.QVENTUS' does not exist or not authorized.
+  compiled Code at target\run\dbt_qventus\models\staging\stg_qventus__patient_data.sql
+[0m18:50:47.624378 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '44f1395e-d23d-4b9c-91c9-a52ae55d82b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025CE51ADEE0>]}
+[0m18:50:47.625377 [error] [Thread-1  ]: 1 of 1 ERROR creating sql view model PUBLIC.stg_qventus__patient_data .......... [[31mERROR[0m in 2.05s]
+[0m18:50:47.628640 [debug] [Thread-1  ]: Finished running node model.dbt_qventus.stg_qventus__patient_data
+[0m18:50:47.631637 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:50:47.633640 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:50:47.634640 [debug] [MainThread]: Connection 'list_ANALYTICS_QVENTUS' was properly closed.
+[0m18:50:47.634640 [debug] [MainThread]: Connection 'list_ANALYTICS_QVENTUS_PUBLIC' was properly closed.
+[0m18:50:47.635640 [debug] [MainThread]: Connection 'model.dbt_qventus.stg_qventus__patient_data' was properly closed.
+[0m18:50:47.636635 [info ] [MainThread]: 
+[0m18:50:47.639637 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 6.71 seconds (6.71s).
+[0m18:50:47.642645 [debug] [MainThread]: Command end result
+[0m18:50:47.655637 [info ] [MainThread]: 
+[0m18:50:47.657644 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m18:50:47.658635 [info ] [MainThread]: 
+[0m18:50:47.660638 [error] [MainThread]: [33mDatabase Error in model stg_qventus__patient_data (models\staging\stg_qventus__patient_data.sql)[0m
+[0m18:50:47.663648 [error] [MainThread]:   002003 (02000): SQL compilation error:
+[0m18:50:47.665636 [error] [MainThread]:   Schema 'ANALYTICS_QVENTUS.QVENTUS' does not exist or not authorized.
+[0m18:50:47.666636 [error] [MainThread]:   compiled Code at target\run\dbt_qventus\models\staging\stg_qventus__patient_data.sql
+[0m18:50:47.668637 [info ] [MainThread]: 
+[0m18:50:47.671638 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m18:50:47.674652 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025CE4D869D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025CE4D86E20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025CE4D86850>]}
+[0m18:50:47.675639 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-02-04 18:56:46.007241 | 02e18277-4592-4d83-b4dc-2253aabd1bfe ==============================
+[0m18:56:46.007241 [info ] [MainThread]: Running with dbt=1.4.1
+[0m18:56:46.011241 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\logonrmlocal\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['staging.stg_qventus__patient_data'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m18:56:46.012235 [debug] [MainThread]: Tracking: tracking
+[0m18:56:46.013236 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000010C106C3100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000010C106C3CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000010C106C3BB0>]}
+[0m18:56:46.062237 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m18:56:46.073255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '02e18277-4592-4d83-b4dc-2253aabd1bfe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000010C106C36D0>]}
+[0m18:56:46.174237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000010C107DFFA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000010C107DF880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000010C107DF760>]}
+[0m18:56:46.176248 [debug] [MainThread]: Flushing usage events
+[0m18:56:47.076885 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Error reading dbt_qventus: staging\qventus\_src_qventus.yml - Runtime Error
+    Syntax error near line 10
+    ------------------------------
+    7  |     schema: qventus
+    8  |     description: Exemplo de projeto ETL
+    9  | 
+    10 |   tables:
+    11 |     - name: patient_data
+    12 |     - name: procedure_orders
+    
+    Raw Error:
+    ------------------------------
+    while parsing a block collection
+      in "<unicode string>", line 5, column 3
+    did not find expected '-' indicator
+      in "<unicode string>", line 10, column 3
+
+
+============================== 2023-02-04 18:57:07.151970 | c9cbfcd3-3555-419e-958a-d5ca5341ce23 ==============================
+[0m18:57:07.151970 [info ] [MainThread]: Running with dbt=1.4.1
+[0m18:57:07.155975 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\logonrmlocal\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['staging.stg_qventus__patient_data'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m18:57:07.156968 [debug] [MainThread]: Tracking: tracking
+[0m18:57:07.156968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019427AB4100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019427AB4CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019427AB4BB0>]}
+[0m18:57:07.207970 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m18:57:07.214972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c9cbfcd3-3555-419e-958a-d5ca5341ce23', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019427AB46A0>]}
+[0m18:57:08.602934 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m18:57:08.625934 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m18:57:08.631933 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_qventus__patient_data.sql
+[0m18:57:08.637932 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_qventus__procedure_orders.sql
+[0m18:57:08.843009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c9cbfcd3-3555-419e-958a-d5ca5341ce23', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019427C00280>]}
+[0m18:57:08.857008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c9cbfcd3-3555-419e-958a-d5ca5341ce23', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019427BDD7C0>]}
+[0m18:57:08.858009 [info ] [MainThread]: Found 4 models, 4 tests, 0 snapshots, 0 analyses, 304 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m18:57:08.859009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c9cbfcd3-3555-419e-958a-d5ca5341ce23', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019427B381C0>]}
+[0m18:57:08.861013 [info ] [MainThread]: 
+[0m18:57:08.865009 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:57:08.871011 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DEV'
+[0m18:57:08.916018 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DEV"
+[0m18:57:08.918014 [debug] [ThreadPool]: On list_DBT_DEV: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "connection_name": "list_DBT_DEV"} */
+show terse schemas in database DBT_DEV
+    limit 10000
+[0m18:57:08.919023 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:57:10.919804 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 2 seconds
+[0m18:57:10.925748 [debug] [ThreadPool]: On list_DBT_DEV: Close
+[0m18:57:11.269442 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DEV_PUBLIC'
+[0m18:57:11.281444 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DEV_PUBLIC"
+[0m18:57:11.283442 [debug] [ThreadPool]: On list_DBT_DEV_PUBLIC: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "connection_name": "list_DBT_DEV_PUBLIC"} */
+show terse objects in DBT_DEV.PUBLIC
+[0m18:57:11.284447 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:57:12.996172 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 2 seconds
+[0m18:57:12.998172 [debug] [ThreadPool]: On list_DBT_DEV_PUBLIC: Close
+[0m18:57:13.316806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c9cbfcd3-3555-419e-958a-d5ca5341ce23', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019427BDD400>]}
+[0m18:57:13.318805 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m18:57:13.320804 [info ] [MainThread]: 
+[0m18:57:13.342038 [debug] [Thread-1  ]: Began running node model.dbt_qventus.stg_qventus__patient_data
+[0m18:57:13.344042 [info ] [Thread-1  ]: 1 of 1 START sql view model PUBLIC.stg_qventus__patient_data ................... [RUN]
+[0m18:57:13.346035 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.dbt_qventus.stg_qventus__patient_data'
+[0m18:57:13.348032 [debug] [Thread-1  ]: Began compiling node model.dbt_qventus.stg_qventus__patient_data
+[0m18:57:13.354030 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_qventus.stg_qventus__patient_data"
+[0m18:57:13.356033 [debug] [Thread-1  ]: Timing info for model.dbt_qventus.stg_qventus__patient_data (compile): 2023-02-04 18:57:13.349040 => 2023-02-04 18:57:13.356033
+[0m18:57:13.357030 [debug] [Thread-1  ]: Began executing node model.dbt_qventus.stg_qventus__patient_data
+[0m18:57:13.461041 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_qventus.stg_qventus__patient_data"
+[0m18:57:13.464029 [debug] [Thread-1  ]: Using snowflake connection "model.dbt_qventus.stg_qventus__patient_data"
+[0m18:57:13.465029 [debug] [Thread-1  ]: On model.dbt_qventus.stg_qventus__patient_data: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "node_id": "model.dbt_qventus.stg_qventus__patient_data"} */
+create or replace   view DBT_DEV.PUBLIC.stg_qventus__patient_data
+  
+   as (
+    select 
+    * 
+from
+    ANALYTICS_QVENTUS.qventus.patient_data
+  );
+[0m18:57:13.466029 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m18:57:14.965838 [debug] [Thread-1  ]: Snowflake adapter: Snowflake query id: 01aa1c71-0c04-2797-0000-0002f2fe3229
+[0m18:57:14.966837 [debug] [Thread-1  ]: Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'ANALYTICS_QVENTUS.QVENTUS' does not exist or not authorized.
+[0m18:57:14.967844 [debug] [Thread-1  ]: Timing info for model.dbt_qventus.stg_qventus__patient_data (execute): 2023-02-04 18:57:13.358043 => 2023-02-04 18:57:14.967844
+[0m18:57:14.968837 [debug] [Thread-1  ]: On model.dbt_qventus.stg_qventus__patient_data: Close
+[0m18:57:15.276184 [debug] [Thread-1  ]: Database Error in model stg_qventus__patient_data (models\staging\stg_qventus__patient_data.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ANALYTICS_QVENTUS.QVENTUS' does not exist or not authorized.
+  compiled Code at target\run\dbt_qventus\models\staging\stg_qventus__patient_data.sql
+[0m18:57:15.278176 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c9cbfcd3-3555-419e-958a-d5ca5341ce23', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019427FFAF10>]}
+[0m18:57:15.279166 [error] [Thread-1  ]: 1 of 1 ERROR creating sql view model PUBLIC.stg_qventus__patient_data .......... [[31mERROR[0m in 1.93s]
+[0m18:57:15.283171 [debug] [Thread-1  ]: Finished running node model.dbt_qventus.stg_qventus__patient_data
+[0m18:57:15.287168 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:57:15.289176 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:57:15.290170 [debug] [MainThread]: Connection 'list_DBT_DEV' was properly closed.
+[0m18:57:15.290170 [debug] [MainThread]: Connection 'list_DBT_DEV_PUBLIC' was properly closed.
+[0m18:57:15.291170 [debug] [MainThread]: Connection 'model.dbt_qventus.stg_qventus__patient_data' was properly closed.
+[0m18:57:15.292167 [info ] [MainThread]: 
+[0m18:57:15.293170 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 6.43 seconds (6.43s).
+[0m18:57:15.295171 [debug] [MainThread]: Command end result
+[0m18:57:15.308168 [info ] [MainThread]: 
+[0m18:57:15.316171 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m18:57:15.323171 [info ] [MainThread]: 
+[0m18:57:15.325167 [error] [MainThread]: [33mDatabase Error in model stg_qventus__patient_data (models\staging\stg_qventus__patient_data.sql)[0m
+[0m18:57:15.327168 [error] [MainThread]:   002003 (02000): SQL compilation error:
+[0m18:57:15.329168 [error] [MainThread]:   Schema 'ANALYTICS_QVENTUS.QVENTUS' does not exist or not authorized.
+[0m18:57:15.333168 [error] [MainThread]:   compiled Code at target\run\dbt_qventus\models\staging\stg_qventus__patient_data.sql
+[0m18:57:15.335166 [info ] [MainThread]: 
+[0m18:57:15.337165 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m18:57:15.342176 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019427AA3460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019427C503A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019427BDD400>]}
+[0m18:57:15.344172 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-02-04 18:59:52.322652 | 5aaf5a24-6aef-4e8f-b4a2-74bc2ec5f57e ==============================
+[0m18:59:52.322652 [info ] [MainThread]: Running with dbt=1.4.1
+[0m18:59:52.325650 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\logonrmlocal\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['staging.stg_qventus__patient_data'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m18:59:52.326652 [debug] [MainThread]: Tracking: tracking
+[0m18:59:52.327652 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D366E7100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D366E7CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D366E7BB0>]}
+[0m18:59:52.525649 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m18:59:52.526649 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m18:59:52.537652 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5aaf5a24-6aef-4e8f-b4a2-74bc2ec5f57e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D3684C0D0>]}
+[0m18:59:52.550651 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5aaf5a24-6aef-4e8f-b4a2-74bc2ec5f57e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D367A5B80>]}
+[0m18:59:52.551652 [info ] [MainThread]: Found 4 models, 4 tests, 0 snapshots, 0 analyses, 304 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m18:59:52.553653 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5aaf5a24-6aef-4e8f-b4a2-74bc2ec5f57e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D367A5E20>]}
+[0m18:59:52.555651 [info ] [MainThread]: 
+[0m18:59:52.559659 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:59:52.563653 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DEV'
+[0m18:59:52.593653 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DEV"
+[0m18:59:52.594652 [debug] [ThreadPool]: On list_DBT_DEV: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "connection_name": "list_DBT_DEV"} */
+show terse schemas in database DBT_DEV
+    limit 10000
+[0m18:59:52.595652 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:59:54.603639 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 2 seconds
+[0m18:59:54.607651 [debug] [ThreadPool]: On list_DBT_DEV: Close
+[0m18:59:54.951701 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DEV_PUBLIC'
+[0m18:59:54.965705 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DEV_PUBLIC"
+[0m18:59:54.966700 [debug] [ThreadPool]: On list_DBT_DEV_PUBLIC: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "connection_name": "list_DBT_DEV_PUBLIC"} */
+show terse objects in DBT_DEV.PUBLIC
+[0m18:59:54.967702 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:59:56.695089 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 2 seconds
+[0m18:59:56.697089 [debug] [ThreadPool]: On list_DBT_DEV_PUBLIC: Close
+[0m18:59:57.000842 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5aaf5a24-6aef-4e8f-b4a2-74bc2ec5f57e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D367A5820>]}
+[0m18:59:57.004847 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m18:59:57.007845 [info ] [MainThread]: 
+[0m18:59:57.021839 [debug] [Thread-1  ]: Began running node model.dbt_qventus.stg_qventus__patient_data
+[0m18:59:57.023841 [info ] [Thread-1  ]: 1 of 1 START sql view model PUBLIC.stg_qventus__patient_data ................... [RUN]
+[0m18:59:57.025843 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.dbt_qventus.stg_qventus__patient_data'
+[0m18:59:57.026843 [debug] [Thread-1  ]: Began compiling node model.dbt_qventus.stg_qventus__patient_data
+[0m18:59:57.031844 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_qventus.stg_qventus__patient_data"
+[0m18:59:57.033842 [debug] [Thread-1  ]: Timing info for model.dbt_qventus.stg_qventus__patient_data (compile): 2023-02-04 18:59:57.027848 => 2023-02-04 18:59:57.033842
+[0m18:59:57.034842 [debug] [Thread-1  ]: Began executing node model.dbt_qventus.stg_qventus__patient_data
+[0m18:59:57.122841 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_qventus.stg_qventus__patient_data"
+[0m18:59:57.127842 [debug] [Thread-1  ]: Using snowflake connection "model.dbt_qventus.stg_qventus__patient_data"
+[0m18:59:57.128842 [debug] [Thread-1  ]: On model.dbt_qventus.stg_qventus__patient_data: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "node_id": "model.dbt_qventus.stg_qventus__patient_data"} */
+create or replace   view DBT_DEV.PUBLIC.stg_qventus__patient_data
+  
+   as (
+    select 
+    * 
+from
+    ANALYTICS_QVENTUS.qventus.patient_data
+  );
+[0m18:59:57.128842 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m18:59:58.701506 [debug] [Thread-1  ]: Snowflake adapter: Snowflake query id: 01aa1c73-0c04-2797-0000-0002f2fe3231
+[0m18:59:58.703534 [debug] [Thread-1  ]: Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'ANALYTICS_QVENTUS.QVENTUS' does not exist or not authorized.
+[0m18:59:58.704535 [debug] [Thread-1  ]: Timing info for model.dbt_qventus.stg_qventus__patient_data (execute): 2023-02-04 18:59:57.035844 => 2023-02-04 18:59:58.704535
+[0m18:59:58.705542 [debug] [Thread-1  ]: On model.dbt_qventus.stg_qventus__patient_data: Close
+[0m18:59:59.038327 [debug] [Thread-1  ]: Database Error in model stg_qventus__patient_data (models\staging\stg_qventus__patient_data.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ANALYTICS_QVENTUS.QVENTUS' does not exist or not authorized.
+  compiled Code at target\run\dbt_qventus\models\staging\stg_qventus__patient_data.sql
+[0m18:59:59.039323 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5aaf5a24-6aef-4e8f-b4a2-74bc2ec5f57e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D36BE4E20>]}
+[0m18:59:59.041313 [error] [Thread-1  ]: 1 of 1 ERROR creating sql view model PUBLIC.stg_qventus__patient_data .......... [[31mERROR[0m in 2.01s]
+[0m18:59:59.045317 [debug] [Thread-1  ]: Finished running node model.dbt_qventus.stg_qventus__patient_data
+[0m18:59:59.048310 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:59:59.050314 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:59:59.051311 [debug] [MainThread]: Connection 'list_DBT_DEV' was properly closed.
+[0m18:59:59.052322 [debug] [MainThread]: Connection 'list_DBT_DEV_PUBLIC' was properly closed.
+[0m18:59:59.053312 [debug] [MainThread]: Connection 'model.dbt_qventus.stg_qventus__patient_data' was properly closed.
+[0m18:59:59.055311 [info ] [MainThread]: 
+[0m18:59:59.056310 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 6.50 seconds (6.50s).
+[0m18:59:59.058311 [debug] [MainThread]: Command end result
+[0m18:59:59.070313 [info ] [MainThread]: 
+[0m18:59:59.072320 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m18:59:59.075314 [info ] [MainThread]: 
+[0m18:59:59.081316 [error] [MainThread]: [33mDatabase Error in model stg_qventus__patient_data (models\staging\stg_qventus__patient_data.sql)[0m
+[0m18:59:59.083318 [error] [MainThread]:   002003 (02000): SQL compilation error:
+[0m18:59:59.084316 [error] [MainThread]:   Schema 'ANALYTICS_QVENTUS.QVENTUS' does not exist or not authorized.
+[0m18:59:59.086312 [error] [MainThread]:   compiled Code at target\run\dbt_qventus\models\staging\stg_qventus__patient_data.sql
+[0m18:59:59.088313 [info ] [MainThread]: 
+[0m18:59:59.092317 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m18:59:59.094311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D36BB2E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D36B162B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D3684CEE0>]}
+[0m18:59:59.096311 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-02-04 19:00:52.902141 | 14a8a1b6-d584-408f-acc7-5b59a43fe46f ==============================
+[0m19:00:52.902141 [info ] [MainThread]: Running with dbt=1.4.1
+[0m19:00:52.906145 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\logonrmlocal\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['staging.stg_qventus__patient_data'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m19:00:52.906145 [debug] [MainThread]: Tracking: tracking
+[0m19:00:52.908146 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D18E13100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D18E13CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D18E13BB0>]}
+[0m19:00:53.077163 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m19:00:53.079151 [debug] [MainThread]: Partial parsing: updated file: dbt_qventus://models\staging\qventus\_src_qventus.yml
+[0m19:00:53.104146 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_qventus__patient_data.sql
+[0m19:00:53.127140 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_qventus__procedure_orders.sql
+[0m19:00:53.173152 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '14a8a1b6-d584-408f-acc7-5b59a43fe46f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D190160D0>]}
+[0m19:00:53.185140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '14a8a1b6-d584-408f-acc7-5b59a43fe46f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D18E26370>]}
+[0m19:00:53.186143 [info ] [MainThread]: Found 4 models, 4 tests, 0 snapshots, 0 analyses, 304 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m19:00:53.187734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '14a8a1b6-d584-408f-acc7-5b59a43fe46f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D18E04100>]}
+[0m19:00:53.188733 [info ] [MainThread]: 
+[0m19:00:53.193731 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m19:00:53.198732 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DEV'
+[0m19:00:53.243750 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DEV"
+[0m19:00:53.245742 [debug] [ThreadPool]: On list_DBT_DEV: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "connection_name": "list_DBT_DEV"} */
+show terse schemas in database DBT_DEV
+    limit 10000
+[0m19:00:53.246734 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:00:55.344008 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 2 seconds
+[0m19:00:55.349002 [debug] [ThreadPool]: On list_DBT_DEV: Close
+[0m19:00:55.699157 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DEV_PUBLIC'
+[0m19:00:55.718161 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DEV_PUBLIC"
+[0m19:00:55.719159 [debug] [ThreadPool]: On list_DBT_DEV_PUBLIC: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "connection_name": "list_DBT_DEV_PUBLIC"} */
+show terse objects in DBT_DEV.PUBLIC
+[0m19:00:55.720159 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:00:57.275908 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 2 seconds
+[0m19:00:57.277908 [debug] [ThreadPool]: On list_DBT_DEV_PUBLIC: Close
+[0m19:00:57.610491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '14a8a1b6-d584-408f-acc7-5b59a43fe46f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D18F2E1F0>]}
+[0m19:00:57.611492 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m19:00:57.613493 [info ] [MainThread]: 
+[0m19:00:57.632491 [debug] [Thread-1  ]: Began running node model.dbt_qventus.stg_qventus__patient_data
+[0m19:00:57.634494 [info ] [Thread-1  ]: 1 of 1 START sql view model PUBLIC.stg_qventus__patient_data ................... [RUN]
+[0m19:00:57.636494 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.dbt_qventus.stg_qventus__patient_data'
+[0m19:00:57.637495 [debug] [Thread-1  ]: Began compiling node model.dbt_qventus.stg_qventus__patient_data
+[0m19:00:57.642494 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_qventus.stg_qventus__patient_data"
+[0m19:00:57.644494 [debug] [Thread-1  ]: Timing info for model.dbt_qventus.stg_qventus__patient_data (compile): 2023-02-04 19:00:57.638494 => 2023-02-04 19:00:57.644494
+[0m19:00:57.645495 [debug] [Thread-1  ]: Began executing node model.dbt_qventus.stg_qventus__patient_data
+[0m19:00:57.763494 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_qventus.stg_qventus__patient_data"
+[0m19:00:57.787499 [debug] [Thread-1  ]: Using snowflake connection "model.dbt_qventus.stg_qventus__patient_data"
+[0m19:00:57.789502 [debug] [Thread-1  ]: On model.dbt_qventus.stg_qventus__patient_data: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "node_id": "model.dbt_qventus.stg_qventus__patient_data"} */
+create or replace   view DBT_DEV.PUBLIC.stg_qventus__patient_data
+  
+   as (
+    select 
+    * 
+from
+    ANALYTICS_QVENTUS.public.patient_data
+  );
+[0m19:00:57.790495 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m19:00:59.548005 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 2 seconds
+[0m19:00:59.582002 [debug] [Thread-1  ]: Timing info for model.dbt_qventus.stg_qventus__patient_data (execute): 2023-02-04 19:00:57.646494 => 2023-02-04 19:00:59.582002
+[0m19:00:59.584010 [debug] [Thread-1  ]: On model.dbt_qventus.stg_qventus__patient_data: Close
+[0m19:00:59.953148 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '14a8a1b6-d584-408f-acc7-5b59a43fe46f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D193B3760>]}
+[0m19:00:59.954137 [info ] [Thread-1  ]: 1 of 1 OK created sql view model PUBLIC.stg_qventus__patient_data .............. [[32mSUCCESS 1[0m in 2.32s]
+[0m19:00:59.958141 [debug] [Thread-1  ]: Finished running node model.dbt_qventus.stg_qventus__patient_data
+[0m19:00:59.961131 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m19:00:59.963132 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m19:00:59.964138 [debug] [MainThread]: Connection 'list_DBT_DEV' was properly closed.
+[0m19:00:59.965137 [debug] [MainThread]: Connection 'list_DBT_DEV_PUBLIC' was properly closed.
+[0m19:00:59.966133 [debug] [MainThread]: Connection 'model.dbt_qventus.stg_qventus__patient_data' was properly closed.
+[0m19:00:59.967132 [info ] [MainThread]: 
+[0m19:00:59.969133 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 6.78 seconds (6.78s).
+[0m19:00:59.970133 [debug] [MainThread]: Command end result
+[0m19:00:59.982133 [info ] [MainThread]: 
+[0m19:00:59.987131 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m19:00:59.989134 [info ] [MainThread]: 
+[0m19:00:59.991151 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m19:00:59.995136 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D18E04100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D18F2E1F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D165AB1C0>]}
+[0m19:00:59.996135 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-02-04 19:07:41.863532 | 97331625-b480-43d8-a1a8-63d9bbf9ef47 ==============================
+[0m19:07:41.863532 [info ] [MainThread]: Running with dbt=1.4.1
+[0m19:07:41.867527 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\logonrmlocal\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['staging.stg_qventus__patient_data'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m19:07:41.867527 [debug] [MainThread]: Tracking: tracking
+[0m19:07:41.868532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591D953100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591D953CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591D953BB0>]}
+[0m19:07:42.053527 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m19:07:42.054532 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m19:07:42.066526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '97331625-b480-43d8-a1a8-63d9bbf9ef47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591DABB0D0>]}
+[0m19:07:42.077526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '97331625-b480-43d8-a1a8-63d9bbf9ef47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591DA0EBE0>]}
+[0m19:07:42.078525 [info ] [MainThread]: Found 4 models, 4 tests, 0 snapshots, 0 analyses, 304 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m19:07:42.079525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '97331625-b480-43d8-a1a8-63d9bbf9ef47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591D943100>]}
+[0m19:07:42.082535 [info ] [MainThread]: 
+[0m19:07:42.087539 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m19:07:42.094528 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DEV'
+[0m19:07:42.146526 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DEV"
+[0m19:07:42.149528 [debug] [ThreadPool]: On list_DBT_DEV: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "connection_name": "list_DBT_DEV"} */
+show terse schemas in database DBT_DEV
+    limit 10000
+[0m19:07:42.176530 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:07:44.223483 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 2 seconds
+[0m19:07:44.228484 [debug] [ThreadPool]: On list_DBT_DEV: Close
+[0m19:07:44.571400 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DEV_PUBLIC'
+[0m19:07:44.584403 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DEV_PUBLIC"
+[0m19:07:44.586402 [debug] [ThreadPool]: On list_DBT_DEV_PUBLIC: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "connection_name": "list_DBT_DEV_PUBLIC"} */
+show terse objects in DBT_DEV.PUBLIC
+[0m19:07:44.587403 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:07:46.106272 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2 seconds
+[0m19:07:46.109269 [debug] [ThreadPool]: On list_DBT_DEV_PUBLIC: Close
+[0m19:07:46.434710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '97331625-b480-43d8-a1a8-63d9bbf9ef47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591DA0E880>]}
+[0m19:07:46.437711 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m19:07:46.439709 [info ] [MainThread]: 
+[0m19:07:46.464708 [debug] [Thread-1  ]: Began running node model.dbt_qventus.stg_qventus__patient_data
+[0m19:07:46.465708 [info ] [Thread-1  ]: 1 of 1 START sql view model PUBLIC.stg_qventus__patient_data ................... [RUN]
+[0m19:07:46.467704 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.dbt_qventus.stg_qventus__patient_data'
+[0m19:07:46.469707 [debug] [Thread-1  ]: Began compiling node model.dbt_qventus.stg_qventus__patient_data
+[0m19:07:46.475708 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_qventus.stg_qventus__patient_data"
+[0m19:07:46.477704 [debug] [Thread-1  ]: Timing info for model.dbt_qventus.stg_qventus__patient_data (compile): 2023-02-04 19:07:46.471710 => 2023-02-04 19:07:46.477704
+[0m19:07:46.478706 [debug] [Thread-1  ]: Began executing node model.dbt_qventus.stg_qventus__patient_data
+[0m19:07:46.601706 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_qventus.stg_qventus__patient_data"
+[0m19:07:46.603705 [debug] [Thread-1  ]: Using snowflake connection "model.dbt_qventus.stg_qventus__patient_data"
+[0m19:07:46.604704 [debug] [Thread-1  ]: On model.dbt_qventus.stg_qventus__patient_data: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "node_id": "model.dbt_qventus.stg_qventus__patient_data"} */
+create or replace   view DBT_DEV.PUBLIC.stg_qventus__patient_data
+  
+   as (
+    select 
+    * 
+from
+    ANALYTICS_QVENTUS.public.patient_data
+  );
+[0m19:07:46.605707 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m19:07:48.440525 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 2 seconds
+[0m19:07:48.478674 [debug] [Thread-1  ]: Timing info for model.dbt_qventus.stg_qventus__patient_data (execute): 2023-02-04 19:07:46.479705 => 2023-02-04 19:07:48.477668
+[0m19:07:48.479704 [debug] [Thread-1  ]: On model.dbt_qventus.stg_qventus__patient_data: Close
+[0m19:07:48.805607 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '97331625-b480-43d8-a1a8-63d9bbf9ef47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591DE04940>]}
+[0m19:07:48.807607 [info ] [Thread-1  ]: 1 of 1 OK created sql view model PUBLIC.stg_qventus__patient_data .............. [[32mSUCCESS 1[0m in 2.34s]
+[0m19:07:48.812602 [debug] [Thread-1  ]: Finished running node model.dbt_qventus.stg_qventus__patient_data
+[0m19:07:48.818618 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m19:07:48.821618 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m19:07:48.822608 [debug] [MainThread]: Connection 'list_DBT_DEV' was properly closed.
+[0m19:07:48.823636 [debug] [MainThread]: Connection 'list_DBT_DEV_PUBLIC' was properly closed.
+[0m19:07:48.825602 [debug] [MainThread]: Connection 'model.dbt_qventus.stg_qventus__patient_data' was properly closed.
+[0m19:07:48.826600 [info ] [MainThread]: 
+[0m19:07:48.827600 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 6.74 seconds (6.74s).
+[0m19:07:48.829603 [debug] [MainThread]: Command end result
+[0m19:07:48.841601 [info ] [MainThread]: 
+[0m19:07:48.843600 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m19:07:48.844600 [info ] [MainThread]: 
+[0m19:07:48.846600 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m19:07:48.851609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591D943100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591DABB130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591DABB430>]}
+[0m19:07:48.853603 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-02-04 19:17:21.233489 | 2a0509cc-f812-4e09-94f9-2ab306b93c6d ==============================
+[0m19:17:21.233489 [info ] [MainThread]: Running with dbt=1.4.1
+[0m19:17:21.237494 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\logonrmlocal\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['staging.stg_qventus__procedure_orders'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m19:17:21.239502 [debug] [MainThread]: Tracking: tracking
+[0m19:17:21.240508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AAF0A6100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AAF0A6CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AAF0A6BB0>]}
+[0m19:17:21.470492 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m19:17:21.471492 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m19:17:21.484492 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2a0509cc-f812-4e09-94f9-2ab306b93c6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AAF20A0D0>]}
+[0m19:17:21.494493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2a0509cc-f812-4e09-94f9-2ab306b93c6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AAF0F0B80>]}
+[0m19:17:21.495507 [info ] [MainThread]: Found 4 models, 4 tests, 0 snapshots, 0 analyses, 304 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m19:17:21.497492 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2a0509cc-f812-4e09-94f9-2ab306b93c6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AAF0F0E20>]}
+[0m19:17:21.498494 [info ] [MainThread]: 
+[0m19:17:21.503494 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m19:17:21.507497 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DEV'
+[0m19:17:21.560065 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DEV"
+[0m19:17:21.561064 [debug] [ThreadPool]: On list_DBT_DEV: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "connection_name": "list_DBT_DEV"} */
+show terse schemas in database DBT_DEV
+    limit 10000
+[0m19:17:21.562070 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:17:23.890886 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 2 seconds
+[0m19:17:23.893882 [debug] [ThreadPool]: On list_DBT_DEV: Close
+[0m19:17:24.305080 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DEV_PUBLIC'
+[0m19:17:24.320070 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DEV_PUBLIC"
+[0m19:17:24.321071 [debug] [ThreadPool]: On list_DBT_DEV_PUBLIC: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "connection_name": "list_DBT_DEV_PUBLIC"} */
+show terse objects in DBT_DEV.PUBLIC
+[0m19:17:24.322070 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:17:26.067530 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2 seconds
+[0m19:17:26.070556 [debug] [ThreadPool]: On list_DBT_DEV_PUBLIC: Close
+[0m19:17:26.387163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2a0509cc-f812-4e09-94f9-2ab306b93c6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AAF0F0820>]}
+[0m19:17:26.388164 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m19:17:26.390164 [info ] [MainThread]: 
+[0m19:17:26.412170 [debug] [Thread-1  ]: Began running node model.dbt_qventus.stg_qventus__procedure_orders
+[0m19:17:26.413168 [info ] [Thread-1  ]: 1 of 1 START sql view model PUBLIC.stg_qventus__procedure_orders ............... [RUN]
+[0m19:17:26.416168 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.dbt_qventus.stg_qventus__procedure_orders'
+[0m19:17:26.417167 [debug] [Thread-1  ]: Began compiling node model.dbt_qventus.stg_qventus__procedure_orders
+[0m19:17:26.423175 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_qventus.stg_qventus__procedure_orders"
+[0m19:17:26.425171 [debug] [Thread-1  ]: Timing info for model.dbt_qventus.stg_qventus__procedure_orders (compile): 2023-02-04 19:17:26.418170 => 2023-02-04 19:17:26.425171
+[0m19:17:26.426167 [debug] [Thread-1  ]: Began executing node model.dbt_qventus.stg_qventus__procedure_orders
+[0m19:17:26.509169 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_qventus.stg_qventus__procedure_orders"
+[0m19:17:26.512173 [debug] [Thread-1  ]: Using snowflake connection "model.dbt_qventus.stg_qventus__procedure_orders"
+[0m19:17:26.513170 [debug] [Thread-1  ]: On model.dbt_qventus.stg_qventus__procedure_orders: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_qventus", "target_name": "dev", "node_id": "model.dbt_qventus.stg_qventus__procedure_orders"} */
+create or replace   view DBT_DEV.PUBLIC.stg_qventus__procedure_orders
+  
+   as (
+    select 
+    * 
+from
+    ANALYTICS_QVENTUS.public.procedure_orders
+  );
+[0m19:17:26.514168 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m19:17:28.270986 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 2 seconds
+[0m19:17:28.303931 [debug] [Thread-1  ]: Timing info for model.dbt_qventus.stg_qventus__procedure_orders (execute): 2023-02-04 19:17:26.427167 => 2023-02-04 19:17:28.303931
+[0m19:17:28.304930 [debug] [Thread-1  ]: On model.dbt_qventus.stg_qventus__procedure_orders: Close
+[0m19:17:28.627848 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2a0509cc-f812-4e09-94f9-2ab306b93c6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AAF596160>]}
+[0m19:17:28.628849 [info ] [Thread-1  ]: 1 of 1 OK created sql view model PUBLIC.stg_qventus__procedure_orders .......... [[32mSUCCESS 1[0m in 2.21s]
+[0m19:17:28.631849 [debug] [Thread-1  ]: Finished running node model.dbt_qventus.stg_qventus__procedure_orders
+[0m19:17:28.635850 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m19:17:28.637861 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m19:17:28.638864 [debug] [MainThread]: Connection 'list_DBT_DEV' was properly closed.
+[0m19:17:28.640873 [debug] [MainThread]: Connection 'list_DBT_DEV_PUBLIC' was properly closed.
+[0m19:17:28.641860 [debug] [MainThread]: Connection 'model.dbt_qventus.stg_qventus__procedure_orders' was properly closed.
+[0m19:17:28.642864 [info ] [MainThread]: 
+[0m19:17:28.646855 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 7.14 seconds (7.14s).
+[0m19:17:28.648856 [debug] [MainThread]: Command end result
+[0m19:17:28.660849 [info ] [MainThread]: 
+[0m19:17:28.661852 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m19:17:28.662852 [info ] [MainThread]: 
+[0m19:17:28.664852 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m19:17:28.665849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AAF586400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AAF586310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AAF5864F0>]}
+[0m19:17:28.666851 [debug] [MainThread]: Flushing usage events

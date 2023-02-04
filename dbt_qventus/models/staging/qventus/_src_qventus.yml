@@ -1,0 +1,15 @@
+version: 2
+
+
+sources:
+  - name: src_qventus
+    database: ANALYTICS_QVENTUS
+    schema: public
+    description: Exemplo de projeto ETL
+
+    tables:
+      - name: patient_data
+      - name: procedure_orders
+        
+
+  
